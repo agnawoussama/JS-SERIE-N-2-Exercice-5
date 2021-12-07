@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: source sans pro light;
+}
+
+body {
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #fffcdc, #d9a7c7);
+}
+
+.ex,
+.header {
+  background-color: #ffffffba;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 7px;
+  height: fit-content;
+}
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: auto;
+}
+.header h1 {
+  font-weight: normal;
+}
+.header p {
+  text-align: end;
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  margin: 0 auto 20px auto;
+  width: fit-content;
+  font-size: 26px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container > div {
+  width: 31%;
+}
+
+h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.flex-radios {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-radio {
+  margin: 0 10px;
+}
+
+.flex-radio > label {
+  display: inline;
+  font-size: 20px;
+}
+.flex-verif {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-verif,
+#txtbx-verif {
+  height: 30px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#btn-verif {
+  width: 30%;
+}
+
+#txtbx-verif {
+  width: 60%;
+}
+
+.flex-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+input[type="checkbox"] {
+  width: 20px;
+  height: 30px;
+  padding: 0;
+}
+
+input[type="checkbox"] + label {
+  display: inline;
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+
+#btn-reponse {
+  padding: 10px;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.flex-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.flex-info > label {
+  margin-right: 20px;
+  font-size: 20px;
+  margin-bottom: auto;
+  margin-left: 0;
+  text-align: start;
+  width: fit-content;
+}
+
+.flex-info > input {
+  width: 60%;
+  height: 30px;
+}
+
+.flex-info-btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#btnAjt,
+#btnSupp,
+#btnAff {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#btnAjt,
+#btnSupp {
+  flex: 1;
+}
+
+#btnAff {
+  flex: 2;
+}
+
+select {
+  width: 100%;
+}

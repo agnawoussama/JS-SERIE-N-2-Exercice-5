@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 5</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Exercice 5</h1>
+      <p>AGNAOU OUSSAMA</p>
+    </div>
+    <div class="flex-container">
+      <!--Ex5_1-->
+      <div class="ex">
+        <label for="">Exercice 5_1</label>
+        <h2>Quelle est la mesure des angles d'un triangle equilatral?</h2>
+        <div class="flex-radios">
+          <div class="flex-radio">
+            <input type="radio" name="radio-degree" value="45" />
+            <label>45°</label>
+          </div>
+          <div class="flex-radio">
+            <input type="radio" name="radio-degree" value="60" />
+            <label>60°</label>
+          </div>
+          <div class="flex-radio">
+            <input type="radio" name="radio-degree" value="90" />
+            <label>90°</label>
+          </div>
+        </div>
+        <div class="flex-verif">
+          <input
+            id="btn-verif"
+            type="button"
+            value="Verifier"
+            onclick="verifier()"
+          />
+          <input id="txtbx-verif" type="text" />
+        </div>
+      </div>
+
+      <!--Ex5_2-->
+      <div class="ex">
+        <label for="">Exercice 5_2</label>
+        <h2>Quelle sont les nombres pairs parmi ces entiers:</h2>
+        <div class="flex-check">
+          <input type="checkbox" value="8" />
+          <label for="">8</label>
+        </div>
+        <div class="flex-check">
+          <input type="checkbox" value="5" />
+          <label for="">5</label>
+        </div>
+        <div class="flex-check">
+          <input type="checkbox" value="14" />
+          <label for="">14</label>
+        </div>
+
+        <input
+          id="btn-reponse"
+          type="button"
+          value="Reponsex"
+          onclick="reponse()"
+        />
+      </div>
+
+      <!--Ex5_3-->
+      <div class="ex">
+        <label for="">Exercice 5_3</label>
+        <div class="flex-info">
+          <label for="">Nom et Prenom</label>
+          <input id="nom-pre" type="text" />
+        </div>
+        <div class="flex-info">
+          <label for="">Adress Email</label>
+          <input id="adrEml" type="text" />
+        </div>
+        <div class="flex-info-btns">
+          <input
+            id="btnAjt"
+            type="button"
+            value="Ajouter"
+            onclick="ajouterArray()"
+          />
+          <input
+            id="btnSupp"
+            type="button"
+            value="Supprimer"
+            onclick="supprimerArray()"
+          />
+          <input
+            id="btnAff"
+            type="button"
+            value="Afficher l'adresse"
+            onclick="afficherAdr()"
+          />
+        </div>
+        <select id="selectInfos" name="infos" size="5"></select>
+      </div>
+    </div>
+    <script src="js/ex5_1.js"></script>
+    <script src="js/ex5_2.js"></script>
+    <script src="js/ex5_3.js"></script>
+  </body>
+</html>
